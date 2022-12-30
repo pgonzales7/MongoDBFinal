@@ -30,7 +30,7 @@ EXPLICACIÓN DEL FUNCIONAMIENTO DE LA PAGINA
 ![image](https://user-images.githubusercontent.com/118759662/210035618-e4369e03-730d-4c08-859f-101401bd0191.png)
 ESTADO DE LA PAGINA ACTUALMENTE
 Para el desarrolo de la Pagina se utilizo el VisualStudioCode, asi como MongoDB. Donde se pudo utilizar los siguientes elmentos:
-- Lenguaje HTML para la estrucctura de la aplicacion web.
+- Lenguaje HTML para la estructura de la aplicacion web.
 - Estilos CSS para el diseño de la pagina
 - Lenjuage Java Script para la parte logica y funcinalidad de la aplicacion web.
 - MongoDB como gestor de base de datos.
