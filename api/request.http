@@ -1,0 +1,67 @@
+
+
+
+
+//registrar usuario
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+  "name":"luis",
+  "userName":"usuario345",
+  "email":"prueba@gmail.com",
+  "password": "Aaaaaaa"
+}
+
+//obtener usuarios
+###
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+PUT http://localhost:9000/api/users/63ab071fb0208bbd8cef6b34 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "pepe",
+    "email": "pepe@gmail.com",
+    "userName": "pokemon34",
+    "password": "Cwwwwww"
+}
+
+###
+DELETE http://localhost:9000/api/users/63ab08b0b0208bbd8cef6b36 HTTP/1.1
+
+
+// pokemons
+//add favorito
+###
+PUT http://localhost:9000/api/users/favorites/63aa8c0d4760dd949eb213c6 HTTP/1.1
+  Content-Type: application/json
+
+{
+  "favorite": 
+    {"name":"mass",
+    "peso": 4,
+    "altura":20,
+    "img": "www.asd.com/asdklasj/asdas.jpg"}
+  
+}
+
+// get favoritos
+###
+GET http://localhost:9000/api/users/favorites/63aa8c964760dd949eb213cd HTTP/1.1
+
+// delete favorit
+###
+DELETE  http://localhost:9000/api/users/favorites/63aa5884c6125ee2b4430858 HTTP/1.1
+  Content-Type: application/json
+
+{
+  "favorite": 
+    {"name":"mass",
+    "peso": 4,
+    "altura":20,
+    "img": "www.asd.com/asdklasj/asdas.jpg"}
+  
+}
