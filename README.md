@@ -32,7 +32,7 @@ ESTADO DE LA PAGINA ACTUALMENTE
 Para el desarrolo de la Pagina se utilizo el VisualStudioCode, asi como MongoDB. Donde se pudo utilizar los siguientes elmentos:
 - Lenguaje HTML para la estructura de la aplicacion web.
 - Estilos CSS para el diseño de la pagina
-- Lenjuage Java Script para la parte logica y funcinalidad de la aplicacion web.
+- Lenguaje Java Script para la parte logica y funcionalidad de la aplicación web.
 - MongoDB como gestor de base de datos.
 - NodeJS como entorno de servidor.
 - Se utilizo el formato de texto Json para el intercambio de datos.
